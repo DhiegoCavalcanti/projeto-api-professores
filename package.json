@@ -1,0 +1,17 @@
+{
+  "name": "projeto-api-professores",
+  "version": "1.0.0",
+  "description": "API REST MVC com Node.js e MySQL",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
